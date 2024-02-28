@@ -17,12 +17,12 @@ module.exports = {
          LightYellow: '#FFF4DF'
             },
             backgroundImage: {
-              "mobile-hero": "url('../public/assets/images/home-hero-mobile.jpg')",
-              "tablet-hero": "url('../public/assets/images/home-hero-tablet.jpg')",
-              "desktop-hero": "url('../public/assets/images/home-hero-desktop.jpg')",
+              "mobile-hero": "url('./public/assets/images/home-hero-mobile.jpg')",
+              "tablet-hero": "url('./public/assets/images/home-hero-tablet.jpg')",
+              "desktop-hero": "url('./public/assets/images/home-hero-desktop.jpg')",
               "circle": "url('../public/assets/patterns/circle.svg')",
-              "semi-circle": "url('../public/assets/patterns/semi-circles.svg')",
-              "white-circle": "url('../public/assets/patterns/white-circles.svg')"
+              "semi-circle": "url('./public/assets/patterns/semi-circles.svg')",
+              "white-circle": "url('./public/assets/patterns/white-circles.svg')"
             }, 
     },
   },
