@@ -558,12 +558,28 @@ video {
   left: -18rem;
 }
 
+.-top-32{
+  top: -8rem;
+}
+
+.bottom-10{
+  bottom: 2.5rem;
+}
+
 .left-14{
   left: 3.5rem;
 }
 
 .left-36{
   left: 9rem;
+}
+
+.left-\[46\.8rem\]{
+  left: 46.8rem;
+}
+
+.left-\[8\.8rem\]{
+  left: 8.8rem;
 }
 
 .right-24{
@@ -580,6 +596,10 @@ video {
 
 .top-40{
   top: 10rem;
+}
+
+.z-0{
+  z-index: 0;
 }
 
 .mb-\[7\.5rem\]{
@@ -606,6 +626,10 @@ video {
   display: flex;
 }
 
+.hidden{
+  display: none;
+}
+
 .h-14{
   height: 3.5rem;
 }
@@ -618,16 +642,41 @@ video {
   height: 19.4rem;
 }
 
+.h-\[40px\]{
+  height: 40px;
+}
+
+.h-\[570px\]{
+  height: 570px;
+}
+
 .w-14{
   width: 3.5rem;
 }
 
-.transform{
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+.w-4{
+  width: 1rem;
+}
+
+.w-\[113px\]{
+  width: 113px;
+}
+
+.w-\[130px\]{
+  width: 130px;
+}
+
+.w-fit{
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .flex-col{
   flex-direction: column;
+}
+
+.items-start{
+  align-items: flex-start;
 }
 
 .items-center{
@@ -640,6 +689,10 @@ video {
 
 .gap-12{
   gap: 3rem;
+}
+
+.gap-24{
+  gap: 6rem;
 }
 
 .gap-28{
@@ -670,6 +723,11 @@ video {
 .bg-DarkNavy{
   --tw-bg-opacity: 1;
   background-color: rgb(73 85 103 / var(--tw-bg-opacity));
+}
+
+.bg-LightGray{
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 236 244 / var(--tw-bg-opacity));
 }
 
 .bg-Yellow{
@@ -736,6 +794,10 @@ video {
   padding-bottom: 2.5rem;
 }
 
+.pb-12{
+  padding-bottom: 3rem;
+}
+
 .pb-4{
   padding-bottom: 1rem;
 }
@@ -744,8 +806,8 @@ video {
   padding-bottom: 1.5rem;
 }
 
-.pb-\[11\.1rem\]{
-  padding-bottom: 11.1rem;
+.pb-\[10\.1rem\]{
+  padding-bottom: 10.1rem;
 }
 
 .pb-\[5\.5rem\]{
@@ -867,8 +929,233 @@ video {
   color: rgb(252 183 43 / var(--tw-text-opacity));
 }
 
+@media (min-width: 640px){
+  .sm\:hidden{
+    display: none;
+  }
+}
+
 @media (min-width: 768px){
+  .md\:absolute{
+    position: absolute;
+  }
+
+  .md\:-left-32{
+    left: -8rem;
+  }
+
+  .md\:left-\[440px\]{
+    left: 440px;
+  }
+
+  .md\:top-2{
+    top: 0.5rem;
+  }
+
+  .md\:top-28{
+    top: 7rem;
+  }
+
+  .md\:top-80{
+    top: 20rem;
+  }
+
+  .md\:block{
+    display: block;
+  }
+
+  .md\:flex{
+    display: flex;
+  }
+
+  .md\:hidden{
+    display: none;
+  }
+
+  .md\:h-7{
+    height: 1.75rem;
+  }
+
+  .md\:h-\[31\.6rem\]{
+    height: 31.6rem;
+  }
+
+  .md\:h-\[31rem\]{
+    height: 31rem;
+  }
+
+  .md\:flex-row{
+    flex-direction: row;
+  }
+
+  .md\:items-start{
+    align-items: flex-start;
+  }
+
+  .md\:justify-between{
+    justify-content: space-between;
+  }
+
+  .md\:gap-40{
+    gap: 10rem;
+  }
+
   .md\:bg-tablet-hero{
     background-image: url('./assets/images/home-hero-tablet.jpg');
+  }
+
+  .md\:px-10{
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .md\:px-\[6rem\]{
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
+  .md\:py-9{
+    padding-top: 2.25rem;
+    padding-bottom: 2.25rem;
+  }
+
+  .md\:pb-0{
+    padding-bottom: 0px;
+  }
+
+  .md\:pb-10{
+    padding-bottom: 2.5rem;
+  }
+
+  .md\:pl-10{
+    padding-left: 2.5rem;
+  }
+
+  .md\:pt-0{
+    padding-top: 0px;
+  }
+
+  .md\:text-left{
+    text-align: left;
+  }
+
+  .md\:text-3xl{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .md\:text-5xl{
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .md\:text-6xl{
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .md\:text-base{
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .md\:leading-\[3\.5rem\]{
+    line-height: 3.5rem;
+  }
+
+  .md\:leading-\[3rem\]{
+    line-height: 3rem;
+  }
+}
+
+@media (min-width: 1024px){
+  .lg\:-right-20{
+    right: -5rem;
+  }
+
+  .lg\:right-\[100px\]{
+    right: 100px;
+  }
+
+  .lg\:mt-0{
+    margin-top: 0px;
+  }
+
+  .lg\:block{
+    display: block;
+  }
+
+  .lg\:flex{
+    display: flex;
+  }
+
+  .lg\:hidden{
+    display: none;
+  }
+
+  .lg\:h-8{
+    height: 2rem;
+  }
+
+  .lg\:flex-row-reverse{
+    flex-direction: row-reverse;
+  }
+
+  .lg\:justify-between{
+    justify-content: space-between;
+  }
+
+  .lg\:gap-32{
+    gap: 8rem;
+  }
+
+  .lg\:gap-56{
+    gap: 14rem;
+  }
+
+  .lg\:gap-\[21rem\]{
+    gap: 21rem;
+  }
+
+  .lg\:bg-desktop-hero{
+    background-image: url('./assets/images/home-hero-desktop.jpg');
+  }
+
+  .lg\:px-\[10\.3rem\]{
+    padding-left: 10.3rem;
+    padding-right: 10.3rem;
+  }
+
+  .lg\:pb-56{
+    padding-bottom: 14rem;
+  }
+
+  .lg\:pl-\[10\.3rem\]{
+    padding-left: 10.3rem;
+  }
+
+  .lg\:pr-\[48\.4rem\]{
+    padding-right: 48.4rem;
+  }
+
+  .lg\:text-left{
+    text-align: left;
+  }
+
+  .lg\:text-sm{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+}
+
+@media (min-width: 1280px){
+  .xl\:hidden{
+    display: none;
+  }
+}
+
+@media (min-width: 1536px){
+  .\32xl\:hidden{
+    display: none;
   }
 }
