@@ -677,24 +677,16 @@ video {
   background-color: rgb(252 183 43 / var(--tw-bg-opacity));
 }
 
-.bg-transparent{
-  background-color: transparent;
-}
-
 .bg-mobile-hero{
-  background-image: url('../public/assets/images/home-hero-mobile.jpg');
+  background-image: url('./assets/images/home-hero-mobile.jpg');
 }
 
 .bg-semi-circle{
-  background-image: url('../public/assets/patterns/semi-circles.svg');
+  background-image: url('./assets/patterns/semi-circles.svg');
 }
 
 .bg-cover{
   background-size: cover;
-}
-
-.bg-center{
-  background-position: center;
 }
 
 .bg-right-bottom{
@@ -877,6 +869,6 @@ video {
 
 @media (min-width: 768px){
   .md\:bg-tablet-hero{
-    background-image: url('../public/assets/images/home-hero-tablet.jpg');
+    background-image: url('./assets/images/home-hero-tablet.jpg');
   }
 }
