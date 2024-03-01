@@ -594,11 +594,6 @@ video {
   z-index: 0;
 }
 
-.mx-auto{
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .mb-\[7\.5rem\]{
   margin-bottom: 7.5rem;
 }
@@ -706,6 +701,10 @@ video {
 
 .gap-\[7\.5rem\]{
   gap: 7.5rem;
+}
+
+.overflow-x-hidden{
+  overflow-x: hidden;
 }
 
 .rounded-full{
