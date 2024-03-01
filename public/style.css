@@ -944,20 +944,16 @@ video {
     left: -8rem;
   }
 
-  .md\:left-\[440px\]{
-    left: 440px;
+  .md\:left-\[100px\]{
+    left: 100px;
+  }
+
+  .md\:left-\[300px\]{
+    left: 300px;
   }
 
   .md\:top-2{
     top: 0.5rem;
-  }
-
-  .md\:top-28{
-    top: 7rem;
-  }
-
-  .md\:top-80{
-    top: 20rem;
   }
 
   .md\:block{
@@ -974,14 +970,6 @@ video {
 
   .md\:h-7{
     height: 1.75rem;
-  }
-
-  .md\:h-\[31\.6rem\]{
-    height: 31.6rem;
-  }
-
-  .md\:h-\[31rem\]{
-    height: 31rem;
   }
 
   .md\:flex-row{
@@ -1069,12 +1057,28 @@ video {
 }
 
 @media (min-width: 1024px){
-  .lg\:-right-20{
-    right: -5rem;
+  .lg\:-left-52{
+    left: -13rem;
   }
 
-  .lg\:right-\[100px\]{
-    right: 100px;
+  .lg\:left-\[600px\]{
+    left: 600px;
+  }
+
+  .lg\:left-\[650px\]{
+    left: 650px;
+  }
+
+  .lg\:top-24{
+    top: 6rem;
+  }
+
+  .lg\:top-44{
+    top: 11rem;
+  }
+
+  .lg\:top-\[200px\]{
+    top: 200px;
   }
 
   .lg\:mt-0{
@@ -1097,6 +1101,10 @@ video {
     height: 2rem;
   }
 
+  .lg\:flex-row{
+    flex-direction: row;
+  }
+
   .lg\:flex-row-reverse{
     flex-direction: row-reverse;
   }
@@ -1105,12 +1113,12 @@ video {
     justify-content: space-between;
   }
 
-  .lg\:gap-32{
-    gap: 8rem;
-  }
-
   .lg\:gap-56{
     gap: 14rem;
+  }
+
+  .lg\:gap-6{
+    gap: 1.5rem;
   }
 
   .lg\:gap-\[21rem\]{
@@ -1134,12 +1142,18 @@ video {
     padding-left: 10.3rem;
   }
 
-  .lg\:pr-\[48\.4rem\]{
-    padding-right: 48.4rem;
-  }
-
   .lg\:text-left{
     text-align: left;
+  }
+
+  .lg\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .lg\:text-4xl{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 
   .lg\:text-sm{
