@@ -586,6 +586,10 @@ video {
   left: 9rem;
 }
 
+.left-8{
+  left: 2rem;
+}
+
 .left-\[8\.7rem\]{
   left: 8.7rem;
 }
@@ -602,12 +606,20 @@ video {
   top: 10rem;
 }
 
+.top-6{
+  top: 1.5rem;
+}
+
 .top-9{
   top: 2.25rem;
 }
 
 .-z-10{
   z-index: -10;
+}
+
+.z-20{
+  z-index: 20;
 }
 
 .mx-auto{
@@ -659,8 +671,16 @@ video {
   height: 40rem;
 }
 
+.h-full{
+  height: 100%;
+}
+
 .w-4{
   width: 1rem;
+}
+
+.w-64{
+  width: 16rem;
 }
 
 .w-\[113px\]{
@@ -676,6 +696,10 @@ video {
   width: fit-content;
 }
 
+.cursor-pointer{
+  cursor: pointer;
+}
+
 .flex-col{
   flex-direction: column;
 }
@@ -688,8 +712,16 @@ video {
   align-items: center;
 }
 
+.justify-start{
+  justify-content: flex-start;
+}
+
 .justify-center{
   justify-content: center;
+}
+
+.justify-between{
+  justify-content: space-between;
 }
 
 .gap-12{
@@ -753,6 +785,10 @@ video {
   background-color: rgb(252 183 43 / var(--tw-bg-opacity));
 }
 
+.bg-\[h-650px\]{
+  background-color: h-650px;
+}
+
 .bg-mobile-hero{
   background-image: url('./assets/images/home-hero-mobile.jpg');
 }
@@ -781,6 +817,11 @@ video {
 .px-6{
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+
+.px-8{
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .py-3{
@@ -879,6 +920,11 @@ video {
   line-height: 1.5rem;
 }
 
+.text-lg{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .text-sm{
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -926,6 +972,10 @@ video {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.opacity-0{
+  opacity: 0;
 }
 
 .hover\:border-2:hover{

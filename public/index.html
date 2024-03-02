@@ -10,7 +10,8 @@
     
     <nav class="flex lg:justify-start items-center gap-28 md:gap-40 py-6 lg:px-[10.3rem]">
     
-      <img class="pl-8  md:hidden" src="./assets/icons/hamburger.svg" alt="hamburger">
+      <img id="open-btn" class="pl-8 md:hidden cursor-pointer" src="./assets/icons/hamburger.svg" alt="hamburger">
+      
       <img class="h-5 md:h-7 lg:h-8 md:pl-10" src="./assets/logo.svg" alt="logo">
       
     <!-- Desktop Menu -->
@@ -19,7 +20,6 @@
             <li><a class="hover:text-Yellow" href="./locations.html">Location</a></li>
             <li><a class="hover:text-Yellow" href="./careers.html">Careers</a></li>
           </ul>
-      
 
         <div class="hidden md:block lg:ml-auto">
             <button class="py-3.5 px-10 bg-Yellow text-white font-bold font-SpaceMono hover:bg-white hover:border-2
@@ -29,9 +29,30 @@
         </div>
       </nav>
 
+
+
 <!-- HERO SECTION -->
 <section class="relative">
-  <div class="bg-mobile-hero md:bg-tablet-hero lg:bg-desktop-hero bg-no-repeat bg-cover text-white px-6 pt-28 pb-[10.1rem]">
+
+      <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden lg:hidden xl:hidden 2xl:hidden">
+      <nav class="absolute flex flex-col justify-between px-8 pt-16 pb-6 top-0 w-64  bg-DarkGray z-20 h-full">
+        <ul class="flex flex-col justify-start gap-4 text-lg leading-6 font-SpaceMono text-white">
+          <li><a class="hover:text-Yellow" href="./about.html">About</a></li>
+          <li><a class="hover:text-Yellow" href="./locations.html">Location</a></li>
+          <li><a class="hover:text-Yellow" href="./careers.html">Careers</a></li>
+        </ul>
+        <div class="">
+          <button class="py-3.5 px-10 bg-Yellow text-white font-bold font-SpaceMono hover:bg-white hover:border-2
+           hover:border-Yellow hover:text-Yellow">
+            <a href="#">Get Scootin</a>
+          </button>
+          </div>
+      </nav>
+    </div>
+
+
+  <div class="bg-[h-650px] bg-mobile-hero md:bg-tablet-hero lg:bg-desktop-hero bg-no-repeat bg-cover text-white px-6 pt-28 pb-[10.1rem]">
     <div class="">
     <h1 class="text-center lg:text-left font-SpaceMono font-bold leading-10 md:leading-[3.5rem] text-4xl md:text-6xl lg:5xl pb-6 lg:pl-[10.3rem] 
     ">Scooter sharing made simple</h1>
