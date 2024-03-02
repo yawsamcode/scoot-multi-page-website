@@ -1204,12 +1204,16 @@ video {
 }
 
 @media (min-width: 1280px){
+  .xl\:left-\[750px\]{
+    left: 750px;
+  }
+
   .xl\:left-\[75rem\]{
     left: 75rem;
   }
 
-  .xl\:left-\[900px\]{
-    left: 900px;
+  .xl\:top-36{
+    top: 9rem;
   }
 
   .xl\:top-\[14rem\]{
@@ -1222,6 +1226,10 @@ video {
 }
 
 @media (min-width: 1536px){
+  .\32xl\:left-\[1250px\]{
+    left: 1250px;
+  }
+
   .\32xl\:left-\[1300px\]{
     left: 1300px;
   }
