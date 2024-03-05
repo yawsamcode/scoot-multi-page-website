@@ -623,6 +623,10 @@ video {
   margin-bottom: 7.5rem;
 }
 
+.ml-auto{
+  margin-left: auto;
+}
+
 .mt-10{
   margin-top: 2.5rem;
 }
@@ -647,12 +651,12 @@ video {
   display: none;
 }
 
-.h-5{
-  height: 1.25rem;
+.h-1\/2{
+  height: 50%;
 }
 
-.h-\[19\.4rem\]{
-  height: 19.4rem;
+.h-5{
+  height: 1.25rem;
 }
 
 .h-\[40px\]{
@@ -675,6 +679,10 @@ video {
   width: 16rem;
 }
 
+.w-7{
+  width: 1.75rem;
+}
+
 .w-\[113px\]{
   width: 113px;
 }
@@ -683,13 +691,12 @@ video {
   width: 130px;
 }
 
-.w-fit{
-  width: -moz-fit-content;
-  width: fit-content;
-}
-
 .cursor-pointer{
   cursor: pointer;
+}
+
+.flex-row{
+  flex-direction: row;
 }
 
 .flex-col{
@@ -724,10 +731,6 @@ video {
   gap: 6rem;
 }
 
-.gap-28{
-  gap: 7rem;
-}
-
 .gap-4{
   gap: 1rem;
 }
@@ -738,10 +741,6 @@ video {
 
 .gap-\[7\.5rem\]{
   gap: 7.5rem;
-}
-
-.overflow-x-hidden{
-  overflow-x: hidden;
 }
 
 .rounded-full{
@@ -777,24 +776,12 @@ video {
   background-color: rgb(252 183 43 / var(--tw-bg-opacity));
 }
 
-.bg-\[h-650px\]{
-  background-color: h-650px;
-}
-
 .bg-mobile-hero{
   background-image: url('./assets/images/home-hero-mobile.jpg');
 }
 
-.bg-semi-circle{
-  background-image: url('./assets/patterns/semi-circles.svg');
-}
-
 .bg-cover{
   background-size: cover;
-}
-
-.bg-right-bottom{
-  background-position: right bottom;
 }
 
 .bg-no-repeat{
@@ -863,10 +850,6 @@ video {
 
 .pb-\[5\.5rem\]{
   padding-bottom: 5.5rem;
-}
-
-.pl-8{
-  padding-left: 2rem;
 }
 
 .pt-16{
@@ -1010,6 +993,11 @@ video {
     top: 0.5rem;
   }
 
+  .md\:mx-0{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
   .md\:block{
     display: block;
   }
@@ -1022,10 +1010,6 @@ video {
     display: none;
   }
 
-  .md\:h-7{
-    height: 1.75rem;
-  }
-
   .md\:flex-row{
     flex-direction: row;
   }
@@ -1034,12 +1018,20 @@ video {
     align-items: flex-start;
   }
 
+  .md\:items-center{
+    align-items: center;
+  }
+
+  .md\:justify-start{
+    justify-content: flex-start;
+  }
+
   .md\:justify-between{
     justify-content: space-between;
   }
 
-  .md\:gap-40{
-    gap: 10rem;
+  .md\:gap-\[3\.62rem\]{
+    gap: 3.62rem;
   }
 
   .md\:bg-tablet-hero{
@@ -1056,6 +1048,11 @@ video {
     padding-right: 6rem;
   }
 
+  .md\:py-8{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
   .md\:py-9{
     padding-top: 2.25rem;
     padding-bottom: 2.25rem;
@@ -1067,10 +1064,6 @@ video {
 
   .md\:pb-10{
     padding-bottom: 2.5rem;
-  }
-
-  .md\:pl-10{
-    padding-left: 2.5rem;
   }
 
   .md\:pt-0{
@@ -1111,10 +1104,6 @@ video {
 }
 
 @media (min-width: 1024px){
-  .lg\:sticky{
-    position: sticky;
-  }
-
   .lg\:-left-52{
     left: -13rem;
   }
@@ -1179,10 +1168,6 @@ video {
     display: none;
   }
 
-  .lg\:h-8{
-    height: 2rem;
-  }
-
   .lg\:w-\[1800px\]{
     width: 1800px;
   }
@@ -1232,6 +1217,11 @@ video {
     padding-right: 10.3rem;
   }
 
+  .lg\:px-\[10\.5rem\]{
+    padding-left: 10.5rem;
+    padding-right: 10.5rem;
+  }
+
   .lg\:pb-56{
     padding-bottom: 14rem;
   }
@@ -1256,6 +1246,11 @@ video {
   .lg\:text-4xl{
     font-size: 2.25rem;
     line-height: 2.5rem;
+  }
+
+  .lg\:text-5xl{
+    font-size: 3rem;
+    line-height: 1;
   }
 
   .lg\:text-sm{
@@ -1308,7 +1303,7 @@ video {
     display: none;
   }
 
-  .\32xl\:gap-\[600px\]{
-    gap: 600px;
+  .\32xl\:gap-\[37\.5rem\]{
+    gap: 37.5rem;
   }
 }
