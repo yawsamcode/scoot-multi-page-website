@@ -1,11 +1,13 @@
 <!doctype html>
-<html>
+<html class="outline-1">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="flex flex-col min-h-screen w-full max-w-[180rem]">
+
   <header>
   <!-- Navigation  -->
     <nav class="px-8 py-6 md:px-10 md:py-8 lg:px-[10.5rem] flex flex-row md:gap-[3.62rem] md:justify-start md:items-center">
@@ -65,7 +67,7 @@
     
   <!-- Lines on the Hero Image  -->
 
-<!-- <div class="hidden absolute lg:block lg:-left-9 lg:top-[16rem] xl:top-[14rem]">
+<div class="hidden absolute lg:block lg:-left-9 lg:top-[16rem] xl:top-[14rem]">
   <svg xmlns="http://www.w3.org/2000/svg" width="203" height="15"><path fill="none" stroke="#FCB72B" stroke-width="15" d="M203 7.5H.5"/></svg>
 </div>
 
@@ -76,7 +78,7 @@
 
 <div class="absolute hidden md:block md:left-[46.8rem]  md:bottom-10 lg:block lg:left-[65rem] lg:bottom-[8.9rem] xl:left-[75rem]">
   <svg xmlns="http://www.w3.org/2000/svg" width="234" height="63"><g fill="none" fill-rule="evenodd"><circle cx="31" cy="31.5" r="29.5" stroke="#FFF" stroke-width="3"/><circle cx="117" cy="31.5" r="29.5" stroke="#FFF" stroke-width="3"/><circle cx="203" cy="31.5" r="31" fill="#FFF"/></g></svg>
-</div> -->
+</div>
 
   </div>
 </div>
@@ -134,17 +136,15 @@
   </div>
   </section>
 
-
-  <section class="px-6 md:px-[6rem] lg:px-[10.3rem] flex flex-col justify-center items-center pt-[7.5rem] gap-[7.5rem] text-center">
-  
+<section class="px-6 md:px-[6rem] lg:px-[10.3rem] flex flex-col justify-center items-center pt-[7.5rem] gap-[7.5rem] text-center max-w-full">
+   
+  <!-- Easy to use riding telemetry -->
   <div class="flex flex-col lg:flex-row-reverse justify-center items-center relative lg:gap-56">
-
       <img class="rounded-full h-1/2" src="./assets/images/telemetry.jpg" alt="telemetry">
         <div class="lg:flex flex-col items-start lg:text-left"> 
 
           <!-- Circle -->
-          <!-- <div class="absolute  -z-10 -top-16 -right-[32rem]"><img src="./assets/patterns/circle.svg" alt=""></div> -->
-
+          <!-- <div class="absolute  -z-10 top-0 translate-x- min-w-fit"><img src="./assets/patterns/circle.svg" alt=""></div> -->
 
       <h2 class="text-DarkNavy font-SpaceMono font-bold leading-tight md:leading-[3rem] text-3xl md:text-5xl  mt-[3.5rem]">Easy to use riding telemetry</h2>
         <p class="py-8 leading-6  font-LexendDeca font-normal text-base lg:text-sm text-DimGray">The Scoot app is available with riding telemetry. This means it can show you your average speed, how long you've been using the scooter, your traveling distance, and many more things all in an easy to use app.</p>
@@ -161,9 +161,11 @@
         </div> -->
   </div>
     
+
+  <!-- Coming to a city near you -->
 <div class="flex flex-col lg:flex-row justify-center items-center relative lg:gap-56 2xl:gap-[37.5rem]">
   <!-- Circle -->
-  <!-- <div class="absolute  -z-10 -top-16 -left-[32rem]"><img src="./assets/patterns/circle.svg" alt=""></div> -->
+    <!-- <div class="absolute -z-10 -top-16 -left-[32rem]"><img src="./assets/patterns/circle.svg" alt=""></div> -->
       <img class="rounded-full h-1/2" src="./assets/images/near-you.jpg" alt="near-you">
       <div class="lg:flex flex-col items-start lg:justify-between lg:text-left">
       <h2 class="text-DarkNavy font-SpaceMono font-bold leading-tight md:leading-[3rem] text-3xl md:text-5xl mt-[3.5rem]">Coming to a city near you</h2>
@@ -178,14 +180,16 @@
       <!-- <div class="absolute top-0 -left-24 md:top-2 md:-left-32 lg:top-24 lg:-left-52">
         <svg xmlns="http://www.w3.org/2000/svg" width="452" height="151"><g fill="none" fill-rule="evenodd" stroke="#FCB72B" stroke-linejoin="bevel" stroke-width="15"><path d="M407.952 145.444l38.426-38.426-38.426-38.426"/><path d="M0 8h270.115v99.369h176.263"/></g></svg>
       </div> -->
-
   </div>
     
-  <div class="flex flex-col lg:flex-row-reverse justify-center items-center relative lg:gap-56 lg:pb-56">
+
+  <!-- Zero hassle payments -->
+  <div class="relative flex flex-col lg:flex-row-reverse justify-center items-center lg:gap-56 lg:pb-56 max-w-full ">
     <!-- Circle -->
-    <!-- <div class="absolute  -z-10 -top-16 -right-[32rem]"><img src="./assets/patterns/circle.svg" alt=""></div> -->
-      <img class="rounded-full h-1/2"  src="./assets/images/payments.jpg" alt="payments">
-      <div class="lg:flex flex-col items-start lg:text-left ">
+     <!-- <div class="absolute  -z-10 -top-16 "><img src="./assets/patterns/semi-circles.svg" alt=""></div> -->
+     
+    <img class="rounded-full h-1/2"  src="./assets/images/payments.jpg" alt="payments ">
+      <div class="lg:flex flex-col items-start lg:text-left">
       <h2 class="text-DarkNavy font-SpaceMono font-bold leading-tight md:leading-[3rem] text-3xl md:text-5xl lg:text-5xl mt-[3.5rem] ">Zero hassle payments</h2>
       <p class="py-8 leading-6 font-LexendDeca font-normal text-base lg:text-sm text-DimGray xl:max-w-1/2">Our payment is as easy as one two three. We accept most credit cards and debit cards. You can also link your PayPal account inside the app. Need to pay later? No worries! You can defer payment for up to a month.</p>
       <div class="flex justify-center items-center">
@@ -199,12 +203,13 @@
       <!-- <div class="absolute top-4 left-36 md:left-[300px] lg:top-44 lg:left-[650px] 2xl:top-36 2xl:left-[1300px]">
         <svg xmlns="http://www.w3.org/2000/svg" width="741" height="151"><g fill="none" fill-rule="evenodd" stroke="#FCB72B" stroke-linejoin="bevel" stroke-width="15"><path d="M740.969 8H182.854v99.369H6.591"/><path d="M44.64 145.64L6.214 107.214 44.64 68.787"/></g></svg>
       </div> -->
-
   </div>
+
+
 </section>
   
-<!-- Apples Icon Section  -->
-<section class="px-6 lg:flex lg:gap-[21rem]  bg-DarkNavy text-white text-center lg:px-[10.3rem] py-[5.5rem]
+<!-- App Icon Section  -->
+<section class="px-6 lg:flex lg:gap-[21rem] mt-6 bg-DarkNavy text-white text-center lg:px-[10.3rem] py-[5.5rem]
 ">
   <h2 class="font-SpaceMono font-bold leading-tight text-3xl md:text-5xl lg:text-4xl md:leading-[3rem] lg:text-left">Sign up and Scoot off today</h2>
   <div class="flex justify-center items-center gap-4 mt-10 lg:mt-0">
@@ -212,9 +217,10 @@
     <img class="w-[130px] h-[40px]" src="./assets/icons/google-play.svg" alt="google-play">
 </div>
 </section>
-
-
 </main>
+
+
+
 
 <!-- Footer  -->
 <footer class="bg-DarkGray text-white pt-16 md:pt-0 pb-[5.5rem] md:pb-0 md:px-10 lg:px-[10.3rem]">
@@ -236,6 +242,7 @@
 </div>
 </footer>
 <script src="./app.js"></script>
+</div>
 </body>
 </html>
 
