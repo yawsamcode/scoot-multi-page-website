@@ -721,6 +721,10 @@ video {
   align-items: flex-start;
 }
 
+.items-end{
+  align-items: flex-end;
+}
+
 .items-center{
   align-items: center;
 }
@@ -1230,6 +1234,10 @@ video {
     flex-direction: row-reverse;
   }
 
+  .lg\:items-start{
+    align-items: flex-start;
+  }
+
   .lg\:justify-start{
     justify-content: flex-start;
   }
@@ -1242,10 +1250,6 @@ video {
     gap: 2.5rem;
   }
 
-  .lg\:gap-20{
-    gap: 5rem;
-  }
-
   .lg\:gap-36{
     gap: 9rem;
   }
@@ -1256,6 +1260,10 @@ video {
 
   .lg\:gap-6{
     gap: 1.5rem;
+  }
+
+  .lg\:text-ellipsis{
+    text-overflow: ellipsis;
   }
 
   .lg\:bg-desktop-hero{
@@ -1291,6 +1299,14 @@ video {
 
   .lg\:text-left{
     text-align: left;
+  }
+
+  .lg\:text-right{
+    text-align: right;
+  }
+
+  .lg\:text-justify{
+    text-align: justify;
   }
 
   .lg\:text-2xl{
@@ -1339,10 +1355,6 @@ video {
     width: 3500px;
   }
 
-  .xl\:gap-36{
-    gap: 9rem;
-  }
-
   .xl\:py-\[6\.3rem\]{
     padding-top: 6.3rem;
     padding-bottom: 6.3rem;
@@ -1360,10 +1372,6 @@ video {
 
   .\32xl\:hidden{
     display: none;
-  }
-
-  .\32xl\:gap-56{
-    gap: 14rem;
   }
 
   .\32xl\:py-\[6\.3rem\]{
