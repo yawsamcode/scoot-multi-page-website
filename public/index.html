@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="flex flex-col min-h-screen w-full max-w-[180rem]">
+  <div class="flex flex-col min-h-screen w-full  overflow-hidden text-balance">
 
   <header>
   <!-- Navigation  -->
@@ -31,7 +31,7 @@
 
 
 <!-- HERO SECTION -->
-<section class="relative">
+<section class="relative ">
 
       <!-- Mobile Menu -->
     <div id="mobile-menu" class="hidden md:hidden lg:hidden xl:hidden 2xl:hidden">
@@ -66,19 +66,20 @@
   
     
   <!-- Lines on the Hero Image  -->
-<!-- 
+  <!-- Line One  -->
 <div class="hidden absolute lg:block lg:-left-9 lg:top-[16rem] xl:top-[14rem]">
   <svg xmlns="http://www.w3.org/2000/svg" width="203" height="15"><path fill="none" stroke="#FCB72B" stroke-width="15" d="M203 7.5H.5"/></svg>
 </div>
 
+ <!-- Line Two  -->
+<div class="absolute -left-72 md:-left-32 lg:left-[34rem] lg:top-[16rem] xl:top-[14rem]">
+  <svg xmlns="http://www.w3.org/2000/svg" width="452" height="151"><g fill="none" fill-rule="evenodd" stroke="#FCB72B" stroke-linejoin="bevel" stroke-width="15"><path d="M407.952 145.444l38.426-38.426-38.426-38.426"/><path d="M0 8h270.115v99.369h176.263"/></g></svg>
+</div>
 
-    <div class="absolute -left-72 md:-left-32 lg:left-[34rem] lg:top-[16rem] xl:top-[14rem]">
-      <svg xmlns="http://www.w3.org/2000/svg" width="452" height="151"><g fill="none" fill-rule="evenodd" stroke="#FCB72B" stroke-linejoin="bevel" stroke-width="15"><path d="M407.952 145.444l38.426-38.426-38.426-38.426"/><path d="M0 8h270.115v99.369h176.263"/></g></svg>
-    </div>
-
+<!-- Circles -->
 <div class="absolute hidden md:block md:left-[46.8rem]  md:bottom-10 lg:block lg:left-[65rem] lg:bottom-[8.9rem] xl:left-[75rem]">
   <svg xmlns="http://www.w3.org/2000/svg" width="234" height="63"><g fill="none" fill-rule="evenodd"><circle cx="31" cy="31.5" r="29.5" stroke="#FFF" stroke-width="3"/><circle cx="117" cy="31.5" r="29.5" stroke="#FFF" stroke-width="3"/><circle cx="203" cy="31.5" r="31" fill="#FFF"/></g></svg>
-</div> -->
+</div>
 
   </div>
 </div>
@@ -88,7 +89,7 @@
 
   <section class="px-6 md:px-[6rem] lg:px-[10.3rem] flex flex-col md:flex-row  justify-center gap-12 relative">
      
-<!-- Start  -->
+<!-- Elements below the Hero Section  -->
     <div class="hidden md:flex flex-col lg:hidden xl:hidden 2xl:hidden gap-24"> 
           <div>
             <svg xmlns="http://www.w3.org/2000/svg" width="96" height="96"><g fill="none" fill-rule="evenodd"><circle cx="48" cy="48" r="48" fill="#FCB72B"/><path fill="#495567" fill-rule="nonzero" d="M60.155 42.6l4.904 4.495a7.215 7.215 0 012.333 5.306v19.573h-1.599V52.401a5.61 5.61 0 00-1.813-4.127l-4.903-4.495 1.078-1.179zM53.8 24a4.003 4.003 0 013.997 3.998v23.656l5.363 5.364-1.13 1.131-7.893-7.893a2.693 2.693 0 00-3.58-.275 2.594 2.594 0 00-.19 3.837l5.597 5.598a.8.8 0 01.1 1.009A18.178 18.178 0 0053 70.544v1.43H33.01a4.003 4.003 0 01-3.997-3.997v-39.98A4.003 4.003 0 0133.01 24zm2.398 6.397H30.612v33.582h19.99v1.599h-19.99v2.399a2.4 2.4 0 002.399 2.398h18.395a19.77 19.77 0 012.972-10.284l-5.142-5.142a4.194 4.194 0 01.303-6.203 4.304 4.304 0 015.729.378l.93.93V30.398zm-11.993 36.78v1.6h-1.6v-1.6h1.6zm-7.196-11.194c.883 0 1.599.716 1.599 1.6v3.197c0 .884-.716 1.6-1.6 1.6H33.81c-.883 0-1.599-.716-1.599-1.6v-3.198c0-.883.716-1.6 1.6-1.6zm7.995 0c.884 0 1.6.716 1.6 1.6v3.197c0 .884-.716 1.6-1.6 1.6h-3.198c-.883 0-1.6-.716-1.6-1.6v-3.198c0-.883.717-1.6 1.6-1.6zm-7.995 1.6H33.81v3.197h3.199v-3.198zm7.995 0h-3.198v3.197h3.198v-3.198zm-7.995-9.596c.883 0 1.599.716 1.599 1.6v3.198c0 .883-.716 1.599-1.6 1.599H33.81c-.883 0-1.599-.716-1.599-1.6v-3.198c0-.883.716-1.599 1.6-1.599zm7.995 0c.884 0 1.6.716 1.6 1.6v3.198c0 .883-.716 1.599-1.6 1.599h-3.198c-.883 0-1.6-.716-1.6-1.6v-3.198c0-.883.717-1.599 1.6-1.599zm-7.995 1.6H33.81v3.198h3.199v-3.199zm7.995 0h-3.198v3.198h3.198v-3.199zM37.01 39.99c.883 0 1.599.716 1.599 1.6v3.198c0 .883-.716 1.6-1.6 1.6H33.81c-.883 0-1.599-.717-1.599-1.6V41.59c0-.884.716-1.6 1.6-1.6zm7.995 0c.884 0 1.6.716 1.6 1.6v3.198c0 .883-.716 1.6-1.6 1.6h-3.198c-.883 0-1.6-.717-1.6-1.6V41.59c0-.884.717-1.6 1.6-1.6zm7.996 0c.883 0 1.6.716 1.6 1.6v3.198c0 .883-.717 1.6-1.6 1.6h-3.198c-.884 0-1.6-.717-1.6-1.6V41.59c0-.884.716-1.6 1.6-1.6zm-15.991 1.6H33.81v3.198h3.199V41.59zm7.995 0h-3.198v3.198h3.198V41.59zm7.996 0h-3.198v3.198H53V41.59zm-15.991-9.595c.883 0 1.599.716 1.599 1.599v3.198c0 .884-.716 1.6-1.6 1.6H33.81c-.883 0-1.599-.716-1.599-1.6v-3.198c0-.883.716-1.6 1.6-1.6zm7.995 0c.884 0 1.6.716 1.6 1.599v3.198c0 .884-.716 1.6-1.6 1.6h-3.198c-.883 0-1.6-.716-1.6-1.6v-3.198c0-.883.717-1.6 1.6-1.6zm7.996 0c.883 0 1.6.716 1.6 1.599v3.198c0 .884-.717 1.6-1.6 1.6h-3.198c-.884 0-1.6-.716-1.6-1.6v-3.198c0-.883.716-1.6 1.6-1.6zm-15.991 1.599H33.81v3.198h3.199v-3.198zm7.995 0h-3.198v3.198h3.198v-3.198zm7.996 0h-3.198v3.198H53v-3.198zm.8-7.996H33.01a2.4 2.4 0 00-2.398 2.399v.8h25.586v-.8a2.4 2.4 0 00-2.398-2.399z"/></g></svg>
@@ -103,12 +104,11 @@
 <!-- End  -->  
 
 
-
 <div class="lg:flex lg:gap-6">
   <!-- White Horizontal Line -->
-  <!-- <div class="hidden lg:block absolute -left-52 top-9 -z-10">
+  <div class="hidden lg:block absolute -left-52 top-9 -z-10">
     <hr class="border-8 border-LightGray lg:w-[1800px] xl:w-[3500px]" />
-  </div> -->
+  </div>
     
   <div class="flex flex-col justify-center items-center md:items-start">
 <!-- Virtical Line on MD Screen -->
@@ -136,17 +136,17 @@
   </div>
   </section>
 
-<section class="px-6 md:px-[6rem] lg:px-[10.3rem] flex flex-col justify-center items-center pt-[7.5rem] gap-[7.5rem] text-center max-w-full">
+<section class="px-6 md:px-[6rem] lg:px-[10.3rem] flex flex-col justify-center items-center pt-[7.5rem] gap-[7.5rem] text-center">
    
   <!-- Easy to use riding telemetry -->
-  <div class="flex flex-col lg:flex-row-reverse justify-center items-center relative lg:gap-56">
+  <div class="flex flex-col lg:flex-row-reverse justify-center items-center relative lg:gap-56 ">
       <img class="rounded-full h-1/2" src="./assets/images/telemetry.jpg" alt="telemetry">
         <div class="lg:flex flex-col items-start lg:text-left"> 
 
           <!-- Circle -->
-          <!-- <div class="absolute  -z-10 top-0 translate-x- min-w-fit"><img src="./assets/patterns/circle.svg" alt=""></div> -->
+          <div class="absolute hidden md:block -z-10 top-0 -right-[26rem] lg:-right-[32rem]"><img src="./assets/patterns/circle.svg" alt=""></div>
 
-      <h2 class="text-DarkNavy font-SpaceMono font-bold leading-tight md:leading-[3rem] text-3xl md:text-5xl  mt-[3.5rem]">Easy to use riding telemetry</h2>
+      <h2 class="text-DarkNavy font-SpaceMono font-bold leading-tight md:leading-[3rem] text-3xl md:text-5xl  mt-[3.5rem] text-balance">Easy to use riding telemetry</h2>
         <p class="py-8 leading-6  font-LexendDeca font-normal text-base lg:text-sm text-DimGray">The Scoot app is available with riding telemetry. This means it can show you your average speed, how long you've been using the scooter, your traveling distance, and many more things all in an easy to use app.</p>
         <div class="flex justify-center items-center">
           <button class="py-3.5 px-10 bg-Yellow text-white font-bold font-SpaceMono hover:bg-white hover:border-2 hover:border-Yellow hover:text-Yellow">
@@ -156,16 +156,18 @@
       </div> 
 
       <!-- Line for Telementary Section -->
-        <!-- <div class="absolute top-40 left-14 md:left-[100px] lg:top-[200px] lg:left-[600px] xl:top-36 xl:left-[950px] 2xl:left-[1300px]">
+        <div class="absolute top-40 left-14 md:left-[100px] lg:top-[200px] lg:left-[600px] xl:top-36 xl:left-[950px] 2xl:left-[1300px]">
           <svg xmlns="http://www.w3.org/2000/svg" width="741" height="151"><g fill="none" fill-rule="evenodd" stroke="#FCB72B" stroke-linejoin="bevel" stroke-width="15"><path d="M740.969 8H182.854v99.369H6.591"/><path d="M44.64 145.64L6.214 107.214 44.64 68.787"/></g></svg>
-        </div> -->
+        </div>
   </div>
     
 
   <!-- Coming to a city near you -->
 <div class="flex flex-col lg:flex-row justify-center items-center relative lg:gap-56 2xl:gap-[37.5rem]">
   <!-- Circle -->
-    <!-- <div class="absolute -z-10 -top-16 -left-[32rem]"><img src="./assets/patterns/circle.svg" alt=""></div> -->
+    
+  <div class="hidden md:block absolute -z-10 top-0 -left-[26rem] lg:-left-[32rem]"><img src="./assets/patterns/circle.svg" alt=""></div>
+
       <img class="rounded-full h-1/2" src="./assets/images/near-you.jpg" alt="near-you">
       <div class="lg:flex flex-col items-start lg:justify-between lg:text-left">
       <h2 class="text-DarkNavy font-SpaceMono font-bold leading-tight md:leading-[3rem] text-3xl md:text-5xl mt-[3.5rem]">Coming to a city near you</h2>
@@ -177,16 +179,16 @@
       </div>
     </div>
       <!-- Line for Coming to a City Near you Section -->
-      <!-- <div class="absolute top-0 -left-24 md:top-2 md:-left-32 lg:top-24 lg:-left-52">
+      <div class="absolute top-0 -left-24 md:top-2 md:-left-32 lg:top-24 lg:-left-52">
         <svg xmlns="http://www.w3.org/2000/svg" width="452" height="151"><g fill="none" fill-rule="evenodd" stroke="#FCB72B" stroke-linejoin="bevel" stroke-width="15"><path d="M407.952 145.444l38.426-38.426-38.426-38.426"/><path d="M0 8h270.115v99.369h176.263"/></g></svg>
-      </div> -->
+      </div>
   </div>
     
 
   <!-- Zero hassle payments -->
   <div class="relative flex flex-col lg:flex-row-reverse justify-center items-center lg:gap-56 lg:pb-56 max-w-full ">
     <!-- Circle -->
-     <!-- <div class="absolute  -z-10 -top-16 "><img src="./assets/patterns/semi-circles.svg" alt=""></div> -->
+    <div class="absolute hidden md:block -z-10 top-0 -right-[26rem] lg:-right-[32rem]"><img src="./assets/patterns/circle.svg" alt=""></div>
      
     <img class="rounded-full h-1/2"  src="./assets/images/payments.jpg" alt="payments ">
       <div class="lg:flex flex-col items-start lg:text-left">
@@ -200,23 +202,28 @@
     </div>
 
      <!-- Line for Zero Hussle Section -->
-      <!-- <div class="absolute top-4 left-36 md:left-[300px] lg:top-44 lg:left-[650px] 2xl:top-36 2xl:left-[1300px]">
+      <div class="absolute top-4 left-36 md:left-[300px] lg:top-44 lg:left-[650px] 2xl:top-36 2xl:left-[1300px]">
         <svg xmlns="http://www.w3.org/2000/svg" width="741" height="151"><g fill="none" fill-rule="evenodd" stroke="#FCB72B" stroke-linejoin="bevel" stroke-width="15"><path d="M740.969 8H182.854v99.369H6.591"/><path d="M44.64 145.64L6.214 107.214 44.64 68.787"/></g></svg>
-      </div> -->
+      </div>
   </div>
 
 
 </section>
   
 <!-- App Icon Section  -->
-<section class="px-6 lg:flex lg:gap-[21rem] mt-6 bg-DarkNavy text-white text-center lg:px-[10.3rem] py-[5.5rem]
+<section class="px-6 lg:flex lg:gap-[21rem] justify-between mt-6 bg-DarkNavy text-white text-center lg:px-[10.3rem] py-[5.5rem] lg:py-[6.3rem] xl:py-[6.3rem] 2xl:py-[6.3rem] bg-semi-circle bg-no-repeat cover   bg-left-bottom md:bg-right-bottom
 ">
-  <h2 class="font-SpaceMono font-bold leading-tight text-3xl md:text-5xl lg:text-4xl md:leading-[3rem] lg:text-left">Sign up and Scoot off today</h2>
+  <h2 class="font-SpaceMono font-bold leading-tight text-3xl md:text-5xl md:leading-[3rem] lg:text-left">Sign up and Scoot off today</h2>
   <div class="flex justify-center items-center gap-4 mt-10 lg:mt-0">
-    <img class="w-[113px] h-[40px]" src="./assets/icons/app-store.svg" alt="app-store">
-    <img class="w-[130px] h-[40px]" src="./assets/icons/google-play.svg" alt="google-play">
+    <div>
+      <svg xmlns="http://www.w3.org/2000/svg" width="159" height="56"><g fill="none" fill-rule="evenodd"><rect width="159" height="56" fill="#E5ECF4" rx="4"/><g fill="#495567" font-family="SpaceMono-Bold, Space Mono" font-weight="bold"><text font-size="20" letter-spacing="-.893" transform="translate(52 8)"><tspan x="0" y="37">AppStore</tspan></text><text font-size="10" letter-spacing="-.446" transform="translate(52 8)"><tspan x="0" y="11">Available on the</tspan></text></g><path fill="#495567" fill-rule="nonzero" d="M34.017 20.533c1.93 0 3.973 1.044 5.428 2.843-4.768 2.594-3.996 9.352.822 11.162-.663 1.457-.98 2.107-1.835 3.398-1.191 1.8-2.869 4.045-4.952 4.06-1.848.02-2.324-1.194-4.833-1.18-2.509.012-3.03 1.201-4.883 1.184-2.08-.018-3.672-2.043-4.863-3.843-3.33-5.033-3.681-10.941-1.627-14.084 1.462-2.231 3.766-3.536 5.93-3.536 2.204 0 3.591 1.2 5.416 1.2 1.77 0 2.848-1.204 5.397-1.204zM33.683 14c.243 1.649-.428 3.264-1.316 4.406-.948 1.226-2.586 2.175-4.17 2.126-.29-1.58.452-3.205 1.353-4.3.988-1.206 2.683-2.132 4.133-2.232z"/></g></svg>
+    </div>
+    <div>
+      <svg xmlns="http://www.w3.org/2000/svg" width="182" height="56"><g fill="none" fill-rule="evenodd"><rect width="182" height="56" fill="#E5ECF4" rx="4"/><g fill="#495567" font-family="SpaceMono-Bold, Space Mono" font-weight="bold"><text font-size="20" letter-spacing="-.893" transform="translate(52 8)"><tspan x="0" y="37">GooglePlay</tspan></text><text font-size="10" letter-spacing="-.446" transform="translate(52 8)"><tspan x="0" y="11">Get it on</tspan></text></g><path fill="#495567" fill-rule="nonzero" d="M19.605 14.345a2.348 2.348 0 00-2.253-.108l12.152 12.178 3.973-3.992-13.872-8.078zm-3.37 1.02A2.476 2.476 0 0016 16.42v22.276c0 .373.083.729.238 1.047l12.147-12.205-12.15-12.175zm13.27 13.297l-12.132 12.19c.322.149.665.214 1.007.214.422 0 .844-.101 1.225-.33l13.875-8.09-3.974-3.984zM38.76 25.5a.221.221 0 00-.014-.01l-3.852-2.242-4.27 4.29 4.273 4.28 3.863-2.252a2.362 2.362 0 001.144-2.033A2.36 2.36 0 0038.76 25.5z"/></g></svg>
+    </div>
 </div>
 </section>
+
 </main>
 
 <!-- Footer  -->
