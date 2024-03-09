@@ -822,6 +822,10 @@ video {
   background-repeat: no-repeat;
 }
 
+.fill-white{
+  fill: #fff;
+}
+
 .px-10{
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -999,6 +1003,14 @@ video {
 .hover\:bg-white:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-opacity-0:hover{
+  --tw-bg-opacity: 0;
+}
+
+.hover\:fill-Yellow:hover{
+  fill: #FCB72B;
 }
 
 .hover\:text-Yellow:hover{
@@ -1262,10 +1274,6 @@ video {
     gap: 1.5rem;
   }
 
-  .lg\:text-ellipsis{
-    text-overflow: ellipsis;
-  }
-
   .lg\:bg-desktop-hero{
     background-image: url('./assets/images/home-hero-desktop.jpg');
   }
@@ -1303,10 +1311,6 @@ video {
 
   .lg\:text-right{
     text-align: right;
-  }
-
-  .lg\:text-justify{
-    text-align: justify;
   }
 
   .lg\:text-2xl{
