@@ -1238,20 +1238,24 @@ video {
     justify-content: space-between;
   }
 
+  .lg\:gap-10{
+    gap: 2.5rem;
+  }
+
+  .lg\:gap-20{
+    gap: 5rem;
+  }
+
   .lg\:gap-36{
     gap: 9rem;
   }
 
-  .lg\:gap-56{
-    gap: 14rem;
+  .lg\:gap-4{
+    gap: 1rem;
   }
 
   .lg\:gap-6{
     gap: 1.5rem;
-  }
-
-  .lg\:gap-\[21rem\]{
-    gap: 21rem;
   }
 
   .lg\:bg-desktop-hero{
@@ -1335,6 +1339,10 @@ video {
     width: 3500px;
   }
 
+  .xl\:gap-36{
+    gap: 9rem;
+  }
+
   .xl\:py-\[6\.3rem\]{
     padding-top: 6.3rem;
     padding-bottom: 6.3rem;
@@ -1354,8 +1362,8 @@ video {
     display: none;
   }
 
-  .\32xl\:gap-\[37\.5rem\]{
-    gap: 37.5rem;
+  .\32xl\:gap-56{
+    gap: 14rem;
   }
 
   .\32xl\:py-\[6\.3rem\]{
