@@ -24,6 +24,11 @@ module.exports = {
         "circle": "url('./assets/patterns/circle.svg')",
         "semi-circle": "url('./assets/patterns/semi-circles.svg')",
         "white-circle": "url('./assets/patterns/white-circles.svg')",
+
+        // / About Page
+        "about-hero-mobile": "url('./assets/images/about-hero-mobile.jpg')",
+        "about-hero-tablet": "url('./assets/images/about-hero-tablet.jpg')",
+        "about-hero-desktop": "url('./assets/images/about-hero-desktop.jpg')"
       },
     },
   },
