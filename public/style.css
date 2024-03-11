@@ -615,17 +615,16 @@ video {
   margin-right: auto;
 }
 
-.my-10{
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
-}
-
 .-mr-14{
   margin-right: -3.5rem;
 }
 
 .-mt-14{
   margin-top: -3.5rem;
+}
+
+.mb-10{
+  margin-bottom: 2.5rem;
 }
 
 .mb-16{
@@ -656,12 +655,20 @@ video {
   margin-top: 1.5rem;
 }
 
+.mt-8{
+  margin-top: 2rem;
+}
+
 .mt-\[3\.5rem\]{
   margin-top: 3.5rem;
 }
 
 .mt-\[7\.5rem\]{
   margin-top: 7.5rem;
+}
+
+.mt-\[8rem\]{
+  margin-top: 8rem;
 }
 
 .flex{
@@ -712,17 +719,24 @@ video {
   width: 1.75rem;
 }
 
+.w-\[100\%\]{
+  width: 100%;
+}
+
+.w-\[11\.25rem\]{
+  width: 11.25rem;
+}
+
+.w-\[17rem\]{
+  width: 17rem;
+}
+
 .w-full{
   width: 100%;
 }
 
 .max-w-full{
   max-width: 100%;
-}
-
-.translate-y-72{
-  --tw-translate-y: 18rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .transform{
@@ -825,13 +839,27 @@ video {
   background-color: rgb(229 236 244 / var(--tw-bg-opacity));
 }
 
+.bg-LightYellow{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 244 223 / var(--tw-bg-opacity));
+}
+
 .bg-Yellow{
   --tw-bg-opacity: 1;
   background-color: rgb(252 183 43 / var(--tw-bg-opacity));
 }
 
+.bg-slate-100{
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+}
+
 .bg-about-hero-mobile{
   background-image: url('./assets/images/about-hero-mobile.jpg');
+}
+
+.bg-careers-location-hero-mobile{
+  background-image: url('./assets/images/careers-location-hero-mobile.jpg');
 }
 
 .bg-mobile-hero{
@@ -873,6 +901,11 @@ video {
   padding-right: 2rem;
 }
 
+.px-\[7\.1rem\]{
+  padding-left: 7.1rem;
+  padding-right: 7.1rem;
+}
+
 .py-3{
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -891,6 +924,11 @@ video {
 .py-8{
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.py-\[1\.37rem\]{
+  padding-top: 1.37rem;
+  padding-bottom: 1.37rem;
 }
 
 .py-\[3\.75rem\]{
@@ -1010,6 +1048,10 @@ video {
   line-height: 1.75rem;
 }
 
+.leading-normal{
+  line-height: 1.5;
+}
+
 .leading-tight{
   line-height: 1.25;
 }
@@ -1102,6 +1144,14 @@ video {
     display: none;
   }
 
+  .md\:w-\[11\.25rem\]{
+    width: 11.25rem;
+  }
+
+  .md\:w-\[85\%\]{
+    width: 85%;
+  }
+
   .md\:flex-row{
     flex-direction: row;
   }
@@ -1130,6 +1180,10 @@ video {
     background-image: url('./assets/images/about-hero-tablet.jpg');
   }
 
+  .md\:bg-careers-location-hero-tablet{
+    background-image: url('./assets/images/careers-locations-hero-tablet.jpg');
+  }
+
   .md\:bg-tablet-hero{
     background-image: url('./assets/images/home-hero-tablet.jpg');
   }
@@ -1141,6 +1195,11 @@ video {
   .md\:px-10{
     padding-left: 2.5rem;
     padding-right: 2.5rem;
+  }
+
+  .md\:px-12{
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 
   .md\:px-\[6rem\]{
@@ -1176,6 +1235,11 @@ video {
 
   .md\:text-left{
     text-align: left;
+  }
+
+  .md\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 
   .md\:text-3xl{
@@ -1280,6 +1344,10 @@ video {
     display: none;
   }
 
+  .lg\:w-1\/2{
+    width: 50%;
+  }
+
   .lg\:w-\[1800px\]{
     width: 1800px;
   }
@@ -1326,6 +1394,10 @@ video {
 
   .lg\:bg-about-hero-desktop{
     background-image: url('./assets/images/about-hero-desktop.jpg');
+  }
+
+  .lg\:bg-careers-location-hero-desktop{
+    background-image: url('./assets/images/careers-locations-hero-desktop.jpg');
   }
 
   .lg\:bg-desktop-hero{
@@ -1386,11 +1458,15 @@ video {
     font-size: 0.75rem;
     line-height: 1rem;
   }
+
+  .lg\:leading-\[3rem\]{
+    line-height: 3rem;
+  }
 }
 
 @media (min-width: 1280px){
-  .xl\:left-\[1200px\]{
-    left: 1200px;
+  .xl\:left-\[1100px\]{
+    left: 1100px;
   }
 
   .xl\:left-\[75rem\]{
@@ -1411,14 +1487,6 @@ video {
 
   .xl\:top-\[14rem\]{
     top: 14rem;
-  }
-
-  .xl\:left-\[100px\]{
-    left: 100px;
-  }
-
-  .xl\:left-\[1100px\]{
-    left: 1100px;
   }
 
   .xl\:hidden{
