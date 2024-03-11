@@ -25,10 +25,15 @@ module.exports = {
         "semi-circle": "url('./assets/patterns/semi-circles.svg')",
         "white-circle": "url('./assets/patterns/white-circles.svg')",
 
-        // / About Page
+        // About Page
         "about-hero-mobile": "url('./assets/images/about-hero-mobile.jpg')",
         "about-hero-tablet": "url('./assets/images/about-hero-tablet.jpg')",
-        "about-hero-desktop": "url('./assets/images/about-hero-desktop.jpg')"
+        "about-hero-desktop": "url('./assets/images/about-hero-desktop.jpg')",
+
+        // Careers Page 
+        "careers-location-hero-mobile": "url('./assets/images/careers-location-hero-mobile.jpg')",
+        "careers-location-hero-tablet": "url('./assets/images/careers-locations-hero-tablet.jpg')",
+        "careers-location-hero-desktop": "url('./assets/images/careers-locations-hero-desktop.jpg')"
       },
     },
   },
