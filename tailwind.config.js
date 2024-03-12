@@ -1,7 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 const percentageWidth = require('tailwindcss-percentage-width'); // load the plugin
 module.exports = {
-  content: ["./public/**/*.{html,js}"],
+  content: ["./public/**/*.{html,js}", 
+  "./node_modules/tw-elements/js/**/*.js"],
   theme: {
     extend: {
       fontFamily: {
@@ -38,6 +39,8 @@ module.exports = {
     },
   },
   plugins: [
-    percentageWidth,
+    [require("tw-elements/plugin.cjs")],
+    percentageWidth
+   
   ],
 };
